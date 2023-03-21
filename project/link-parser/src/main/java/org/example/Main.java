@@ -2,7 +2,7 @@ package org.example;
 
 public class Main { // тут непосредственно реализуется запуск парсера
     public static void main(String[] args) {
-        String url1 = "https://github.com/melmelnikoff/Tink_Project/blob/master/.gitignore";
+        String url1 = "https://github.com/M0X0V1K/project";
         Link link1 = LinkParser.parse(url1);
         System.out.println(link1.parse()); // Выводит "user + repo"
 
